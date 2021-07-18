@@ -15,17 +15,17 @@
        android:layout_height="wrap_content"
        android:layout_weight="1"
        android:orientation="horizontal">
+
        <TextView
            android:layout_width="wrap_content"
-           android:layout_height="60dp"
-           android:text="@string/app_name"
-           android:textSize="45sp"
+           android:layout_height="87dp"
            android:layout_weight="2"
-           />
+           android:text="@string/app_name"
+           android:textSize="45sp" />
 
        <Button
            android:layout_width="wrap_content"
-           android:layout_height="50dp"
+           android:layout_height="92dp"
            android:layout_marginEnd="5dp"
            android:layout_weight="2"
            android:backgroundTint="@color/teal_700"
@@ -33,11 +33,11 @@
 
        <Button
            android:layout_width="wrap_content"
-           android:layout_height="50dp"
+           android:layout_height="92dp"
+           android:layout_marginEnd="5dp"
            android:layout_weight="2"
            android:backgroundTint="@color/teal_700"
-           android:layout_marginEnd="5dp"
-           android:text="Best Score"/>
+           android:text="Best Score" />
    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -203,12 +203,13 @@
         android:layout_height="10dp"
         android:layout_weight="1"
         android:orientation="horizontal">
+
         <Button
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:text="Restart"
-            android:backgroundTint="@color/purple_200"/>
+            android:backgroundTint="@color/teal_700"
+            android:text="Restart" />
     </LinearLayout>
 
 
